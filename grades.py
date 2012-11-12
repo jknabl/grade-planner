@@ -120,29 +120,7 @@ class Course:
 		print "------------------------\n"
 
 def main():
-	a1 = Assignment("Lab 1", 0.1, "no", "Robots lab 1", 50)
-	a2 = Assignment("Lab 2", 0.1, "no", "Robots lab 2", 60)
-	a3 = Assignment("Lab 3", 0.1, "no", "Robots lab 3", 0)
-	a4 = Assignment("Lab 4", 0.1, "no", "Robots lab 4", 20)
-	midterm = Assignment("Midterm", .15, "no", "Robots midterm", 74.3)
-	project = Assignment("Project", .20, "no", "Robots project competition", 50)
-	exam = Assignment("Final Exam", .25, "no", "Robots final exam", 75)
-	assignments = []
-	assignments.append(a1)
-	assignments.append(a2)
-	assignments.append(a3)
-	assignments.append(a4)
-	assignments.append(midterm)
-	assignments.append(project)
-	assignments.append(exam)
-	comp4807 = Course(assignments)
-	comp4807.print_grades()
-	comp4807.possible_grades_results(a1)
-	comp4807.possible_grades_results(midterm)
-	comp4807.possible_grades_results(exam)
-	comp4807.possible_grades_results(project)
-	comp4807.print_grades()
-	comp4807.what_to_get_x(50, exam)
+	#test stuff here
 if __name__=="__main__":
 	main()
 
